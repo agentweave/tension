@@ -1,6 +1,6 @@
 # Tension
 
-A Claude Code plugin for configurable agent autonomy.
+A dial for agent autonomy.
 
 Four profiles — **tight**, **default**, **loose**, **free** — control how your AI coding agent behaves. Set once in `.tension.md`, switch anytime with `/tension:set`.
 

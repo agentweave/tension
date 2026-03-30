@@ -2,7 +2,7 @@
 
 A dial for agent autonomy.
 
-Four profiles — **tight**, **default**, **loose**, **free** — control how your AI coding agent behaves. Set once in `.tension.md`, switch anytime with `/tension:set`.
+Four profiles — **tight**, **default**, **loose**, **free** — control how Claude behaves. Switch anytime with `/tension:set`.
 
 Part of the [agentweave](https://github.com/agentweave) suite.
 
@@ -23,7 +23,7 @@ claude plugin install agentweave/tension
 /tension:status         # Show active profile
 ```
 
-The active profile is stored in `.tension.md` in your project root. You can edit it by hand — no plugin required.
+The active profile is stored in `.tension.md` in your project root.
 
 ## Profiles
 
@@ -37,10 +37,10 @@ The active profile is stored in `.tension.md` in your project root. You can edit
 ## How It Works
 
 1. `/tension:set <profile>` writes behavioral instructions to `.tension.md`
-2. `CLAUDE.local.md` references `.tension.md` (handled by the plugin)
-3. Claude follows the instructions automatically
+2. Claude picks them up automatically
+3. Behavior changes — communication, error handling, commits, scope
 
-Pure markdown. Just clear behavioral guidelines that Claude follows automatically.
+Pure markdown. Edit `.tension.md` by hand if you want — no plugin required.
 
 The **free** profile also creates `.tension-goals.md` — a goals checklist that Claude works through autonomously and you can review or edit while it runs.
 

@@ -40,7 +40,7 @@ The active profile is stored in `.tension.md` in your project root. You can edit
 2. `CLAUDE.local.md` references `.tension.md` (handled by the plugin)
 3. Claude follows the instructions automatically
 
-No hooks, no enforcement — just clear behavioral guidelines that Claude reads and follows.
+Pure markdown. Just clear behavioral guidelines that Claude follows automatically.
 
 The **free** profile also creates `.tension-goals.md` — a goals checklist that Claude works through autonomously and you can review or edit while it runs.
 

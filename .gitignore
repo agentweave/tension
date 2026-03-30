@@ -1,0 +1,9 @@
+.DS_Store
+*.swp
+*.swo
+*~
+.claude/
+.tension.md
+.tension-goals.md
+CLAUDE.local.md
+docs/internal/

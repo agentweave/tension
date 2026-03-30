@@ -1,0 +1,11 @@
+{
+  "name": "tension",
+  "version": "0.1.0",
+  "description": "Configurable agent autonomy — tight, default, loose, or free",
+  "author": {
+    "name": "agentweave"
+  },
+  "repository": "https://github.com/agentweave/tension",
+  "license": "MIT",
+  "skills": "./skills"
+}

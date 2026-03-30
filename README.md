@@ -42,13 +42,11 @@ The active profile is stored in `.tension.md` in your project root.
 
 Pure markdown. Edit `.tension.md` by hand if you want — no plugin required.
 
-The **free** profile also creates `.tension-goals.md` — a goals checklist that Claude works through autonomously and you can review or edit while it runs.
-
 ## Should I commit `.tension.md`?
 
 **Shared team preference:** Commit it so everyone uses the same profile.
 
-**Personal preference:** Add `.tension.md` and `.tension-goals.md` to `.gitignore`.
+**Personal preference:** Add `.tension.md` to `.gitignore`.
 
 ## License
 

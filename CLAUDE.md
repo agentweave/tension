@@ -13,6 +13,6 @@ Tension is a Claude Code plugin for configurable agent autonomy. It's pure markd
 
 Profile templates are prompt engineering. When editing:
 - Tight and loose share four sections: Working, Communication, Errors, Commits.
-- Free has its own set: Kickoff, Working, Communication, Commits, Self-Check, Iterating, Stopping.
+- Free has five sections: Working, Communication, Errors, Commits, Scope.
 - Each non-default profile has a permission mode awareness preamble. Keep these consistent in intent but tailored per profile.
 - Test changes by running `/tension:set <profile>` and observing Claude's behavior.

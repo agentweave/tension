@@ -44,20 +44,11 @@ Then stop.
 
 Read the file at `${CLAUDE_PLUGIN_ROOT}/profiles/<profile>.md`.
 
-### 3. Clean up previous profile artifacts
-
-Check if `.tension-goals.md` exists in the current working directory.
-
-If it exists and the new profile is NOT `free`:
-- Check if it has uncompleted goals (lines matching `- [ ]`).
-- If there are uncompleted goals, warn: "`.tension-goals.md` has uncompleted goals from a previous free session. It will be left in place — delete it manually if no longer needed."
-- If all goals are completed (or the file has no goal lines), delete it silently.
-
-### 4. Write `.tension.md`
+### 3. Write `.tension.md`
 
 Write the profile template content to `.tension.md` in the current working directory (project root). This overwrites any existing content, including hand-edits.
 
-### 5. Ensure CLAUDE.local.md references `.tension.md`
+### 4. Ensure CLAUDE.local.md references `.tension.md`
 
 The Tension reference goes in `CLAUDE.local.md` (personal, not committed) rather than `CLAUDE.md` (shared project instructions), because the active profile is a personal preference.
 
@@ -75,7 +66,7 @@ Follow the behavioral guidelines in .tension.md.
 
 Also check `CLAUDE.md` — if it contains a `## Tension` section referencing `.tension.md` (from an older version of the plugin), remove that section so the reference isn't duplicated.
 
-### 6. Confirm and apply
+### 5. Confirm and apply
 
 Output the following:
 

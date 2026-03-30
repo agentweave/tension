@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0f0f1a"/>
+    </linearGradient>
+    <linearGradient id="arc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d2ff"/>
+      <stop offset="50%" style="stop-color:#7b61ff"/>
+      <stop offset="100%" style="stop-color:#ff6ec7"/>
+    </linearGradient>
+    <linearGradient id="needle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7b61ff"/>
+      <stop offset="100%" style="stop-color:#00d2ff"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="url(#bg)"/>
+  <!-- Outer glow ring -->
+  <circle cx="256" cy="280" r="140" fill="none" stroke="url(#arc)" stroke-width="0.5" opacity="0.08"/>
+  <!-- Dial arc — 270° sweep from tight (left) to free (right) -->
+  <path d="M 157.1 379 A 140 140 0 1 1 354.9 379" fill="none" stroke="url(#arc)" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+  <!-- Tick marks — four profiles -->
+  <!-- tight (left, ~225°) -->
+  <line x1="148.5" y1="370.5" x2="162.4" y2="356.6" stroke="#00d2ff" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <!-- default (~270°, bottom-left area) -->
+  <line x1="116" y1="280" x2="134" y2="280" stroke="#3d99ff" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <!-- loose (~315°, top) -->
+  <line x1="157.1" y1="181" x2="170.9" y2="194.8" stroke="#7b61ff" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <!-- free (right, ~45°) -->
+  <line x1="354.9" y1="181" x2="341.1" y2="194.8" stroke="#ff6ec7" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <!-- Needle — pointing to "loose" position (~315°) -->
+  <line x1="256" y1="280" x2="172" y2="196" stroke="url(#needle)" stroke-width="3" stroke-linecap="round" opacity="0.95"/>
+  <!-- Center hub -->
+  <circle cx="256" cy="280" r="14" fill="url(#arc)" opacity="0.9"/>
+  <circle cx="256" cy="280" r="8" fill="#1a1a2e"/>
+  <circle cx="256" cy="280" r="3.5" fill="url(#needle)" opacity="0.95"/>
+</svg>

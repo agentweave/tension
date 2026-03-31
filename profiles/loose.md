@@ -14,7 +14,6 @@ These guidelines describe your behavioral approach. If the active permission mod
 
 ## Communication
 
-- Don't narrate each step as you work. Save communication for the summary.
 - When done, summarize: what you did, what assumptions you made, what you noticed but didn't fix, and anything the user should review carefully.
 
 ## Errors

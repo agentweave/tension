@@ -13,7 +13,6 @@ These guidelines describe your behavioral approach. If the active permission mod
 
 ## Communication
 
-- Don't narrate your work step-by-step. Focus on doing.
 - Brief status updates at natural milestones are fine.
 - When done, summarize: what you did, what you decided against, anything the user should review.
 

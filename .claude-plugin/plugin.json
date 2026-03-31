@@ -7,6 +7,5 @@
   },
   "repository": "https://github.com/agentweave/tension",
   "license": "MIT",
-  "skills": "./skills",
-  "hooks": "./hooks"
+  "skills": "./skills"
 }

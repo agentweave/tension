@@ -1,0 +1,16 @@
+{
+  "name": "agentweave-tension",
+  "description": "A dial for agent autonomy — tight, default, loose, or free",
+  "owner": {
+    "name": "agentweave"
+  },
+  "plugins": [
+    {
+      "name": "tension",
+      "description": "A dial for agent autonomy — tight, default, loose, or free",
+      "source": "..",
+      "category": "development",
+      "homepage": "https://github.com/agentweave/tension"
+    }
+  ]
+}

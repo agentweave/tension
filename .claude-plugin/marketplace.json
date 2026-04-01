@@ -8,7 +8,7 @@
     {
       "name": "tension",
       "description": "A dial for agent autonomy — tight, default, loose, or free",
-      "source": "..",
+      "source": "./",
       "category": "development",
       "homepage": "https://github.com/agentweave/tension"
     }
